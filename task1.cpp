@@ -14,7 +14,7 @@ int FindHappiness(int i) {
                 return 0;
                 }
             else {
-                while(rem > 0 && i > 0) {
+                while(rem > 0  && i > 0) {
                     rem = i % 10;
                     i = i / 10;
                     add = add + (rem*rem);
